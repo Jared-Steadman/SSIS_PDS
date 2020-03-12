@@ -2,13 +2,23 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>LDSBC_IT243_js</Name>
-    <LastWriteTime>2020-03-03T01:38:00.6883768Z</LastWriteTime>
+    <LastWriteTime>2020-03-12T01:09:18.9420031Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
+      <Name>Package1.dtsx</Name>
+      <LastWriteTime>2020-03-03T01:57:51.1006661Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
       <Name>SSIS_PDS_Template_js.dtsx</Name>
-      <LastWriteTime>2020-03-03T01:29:28.6628755Z</LastWriteTime>
+      <LastWriteTime>2020-03-12T01:10:14.1469122Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>LoadDFNB3_js.dtsx</Name>
+      <LastWriteTime>2020-03-10T01:02:41.0382234Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

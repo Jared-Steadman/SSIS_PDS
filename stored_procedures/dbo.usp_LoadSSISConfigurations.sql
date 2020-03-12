@@ -154,6 +154,27 @@ Connect strings are loaded with passwords to allow for automation of SSIS ETL ba
           );
 
 
+		   -- 3.2) SSIS_PDS_Template
+
+    DELETE FROM dbo.[SSIS Configurations]
+     WHERE ConfigurationFilter = 'LoadDFNB3_js';
+	
+
+	-- 3.2.1) v_data_share_root
+
+    INSERT INTO dbo.[SSIS Configurations](ConfigurationFilter
+                                        , ConfiguredValue
+                                        , PackagePath
+                                        , ConfiguredValueType)
+    VALUES
+          (
+           'LoadDFNB3_js'
+		 , 'D:\College\IT 243\repos\DFNB_dw\txt_files\'
+         , '\Package.Variables[User::v_data_share_root].Properties[Value]'
+         , 'String'
+          );
+
+
 END;
 
 GO
