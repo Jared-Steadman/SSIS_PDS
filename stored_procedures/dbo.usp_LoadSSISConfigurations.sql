@@ -28,7 +28,7 @@ Ver      Date        Author           Description
 -------  ----------  ---------------  ------------------------------------------------------------------------
 1.0      11/03/2019  JJAUSSI          1. Created this process for LDS BC IT243
 1.1      11/09/2019  JJAUSSI          1. Added conn_DFNB3
-
+1.2		 3/30/2020   JSTEADMAN		  1. Added LoadDFNB3_js
 
 
 RUNTIME: 
@@ -154,7 +154,7 @@ Connect strings are loaded with passwords to allow for automation of SSIS ETL ba
           );
 
 
-		   -- 3.2) SSIS_PDS_Template
+		   -- 3.2) LoadDFNB3_js
 
     DELETE FROM dbo.[SSIS Configurations]
      WHERE ConfigurationFilter = 'LoadDFNB3_js';
